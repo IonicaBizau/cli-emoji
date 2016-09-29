@@ -2,4 +2,6 @@
 
 const cliEmoji = require("../lib");
 
-console.log(cliEmoji());
+cliEmoji("tada", (err, data) => {
+    console.log(err || data);
+});

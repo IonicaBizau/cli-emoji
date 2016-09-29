@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+"use strict";
+
+const Tilda = require("tilda")
+    , cliEmoji = require("..")
+    ;
+
+new Tilda(`${__dirname}/../package.json`, {
+    args: [
+        {
+            name: "emoji"
+          , desc: "The emoji name (e.g. tada)."
+        }
+    ]
+}).main(action => {
+    cliEmoji(action.args.emoji, (err, data) => { console.log(err || data); });
+});

@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "cli-emoji": "bin/cli-emoji"
+  },
   "name": "cli-emoji",
   "description": "Big emojis in your terminal.",
   "keywords": [
@@ -37,5 +40,8 @@
     "url": "https://github.com/IonicaBizau/cli-emoji/issues"
   },
   "homepage": "https://github.com/IonicaBizau/cli-emoji#readme",
-  "bin": null
+  "dependencies": {
+    "image-to-ascii": "^3.0.3",
+    "tilda": "^4.3.1"
+  }
 }
