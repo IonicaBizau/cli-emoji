@@ -5,6 +5,8 @@
 
 > Big emojis in your terminal.
 
+[![cli-emoji](http://i.imgur.com/izu1d8J.png)](#)
+
 ## :cloud: Installation
 
 You can install the package globally and use it as command line tool:
