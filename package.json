@@ -14,7 +14,7 @@
     "terminal"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -43,5 +43,8 @@
   "dependencies": {
     "image-to-ascii": "^3.0.3",
     "tilda": "^4.3.1"
+  },
+  "blah": {
+    "ex_img": "http://i.imgur.com/izu1d8J.png"
   }
 }
