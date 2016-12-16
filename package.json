@@ -14,7 +14,7 @@
     "terminal"
   ],
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -46,6 +46,9 @@
     "tilda": "^4.3.1"
   },
   "blah": {
-    "ex_img": "http://i.imgur.com/izu1d8J.png"
+    "ex_img": "http://i.imgur.com/izu1d8J.png",
+    "before_installation": {
+      "p": "`GraphicsMagick` may be needed to be installed. Check out [how to install it](https://github.com/IonicaBizau/image-to-ascii/blob/master/INSTALLATION.md)."
+    }
   }
 }
